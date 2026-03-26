@@ -63,10 +63,11 @@ Store data in MySQL database
 Budget – ₹50,000
 
 Breakdown:
-
+```
 Development tools & software – ₹10,000
 Map design & data preparation – ₹8,000
 Hosting / Server setup – ₹12,000
 UI/UX design & testing – ₹8,000
 Voice feature integration – ₹5,000
 Testing & miscellaneous – ₹7,000
+```
