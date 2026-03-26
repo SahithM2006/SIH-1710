@@ -1,7 +1,7 @@
 # Smart India Hackathon Workshop
-# Date:
-## Register Number:
-## Name:
+# Date: 26/03/2026
+## Register Number: 212224230236
+## Name: SAHITH M
 ## Problem Title
 SIH 1710: Enhancing Navigation for Railway Station Facilities and Locations
 ## Problem Description
@@ -18,7 +18,7 @@ Ministry of Railway
 
 
 ## Use Cases
-
+```
 👤 USER                          🖥️ SYSTEM                       👨‍💼 ADMIN
 
 Search Location  ─────────▶   Navigation Engine
@@ -31,6 +31,7 @@ Voice Request ───────────▶   AI Assistant
                                           Admin Panel ─────▶ Update Maps
                                           Manage Data ─────▶ Monitor Crowd
                                           Reports ─────────▶ Analytics
+```
 ## Technology Stack
 # Frontend
 HTML
