@@ -14,13 +14,58 @@ Ministry of Railway
 
 
 ## Proposed Solution / Architecture Diagram
+<img width="1157" height="832" alt="image" src="https://github.com/user-attachments/assets/58ab7ba7-f93a-44d7-83b2-18e29a98ddb7" />
 
 
 ## Use Cases
 
+👤 USER                          🖥️ SYSTEM                       👨‍💼 ADMIN
 
+Search Location  ─────────▶   Navigation Engine
+Select Destination ───────▶   Pathfinding (Dijkstra)
+Voice Request ───────────▶   AI Assistant
+
+                         ◀──── Route Directions
+                         ◀──── Voice Guidance
+
+                                          Admin Panel ─────▶ Update Maps
+                                          Manage Data ─────▶ Monitor Crowd
+                                          Reports ─────────▶ Analytics
 ## Technology Stack
-
+# Frontend
+HTML
+CSS
+JavaScript
+# Backend
+Spring Boot (Java)
+# Database
+MySQL
+# Algorithms
+Dijkstra / A* (Shortest Path Navigation)
+# Additional Tools
+Web Speech API (Voice Navigation)
+WebSocket (Real-time updates)
 
 ## Dependencies
+Mapping Service – 10 Days
+Create basic railway station map layout
+Mark important locations (platforms, restrooms, ticket counters)
+Design node and path structure for navigation
+Implement shortest path algorithm (Dijkstra/A)*
+Test route accuracy inside sample station
+Data Collection – 10 Days
+Collect details of station facilities and layout
+Gather location coordinates (nodes)
+Identify entry/exit points and pathways
+Validate data for correctness
+Store data in MySQL database
+Budget – ₹50,000
 
+Breakdown:
+
+Development tools & software – ₹10,000
+Map design & data preparation – ₹8,000
+Hosting / Server setup – ₹12,000
+UI/UX design & testing – ₹8,000
+Voice feature integration – ₹5,000
+Testing & miscellaneous – ₹7,000
